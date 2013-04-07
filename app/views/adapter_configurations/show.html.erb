@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Adapter:</b>
+  <%= @adapter_configuration.adapter %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @adapter_configuration.name %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%= @adapter_configuration.value %>
+</p>
+
+
+<%= link_to 'Edit', edit_adapter_configuration_path(@adapter_configuration) %> |
+<%= link_to 'Back', adapter_configurations_path %>

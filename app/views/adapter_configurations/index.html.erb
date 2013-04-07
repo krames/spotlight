@@ -1,6 +1,6 @@
 <h1>Listing adapter_configurations</h1>
 
-<table>
+<table class="table">
   <tr>
     <th>Adapter</th>
     <th>Name</th>
@@ -15,9 +15,9 @@
     <td><%= adapter_configuration.adapter %></td>
     <td><%= adapter_configuration.name %></td>
     <td><%= adapter_configuration.value %></td>
-    <td><%= link_to 'Show', adapter_configuration %></td>
-    <td><%= link_to 'Edit', edit_adapter_configuration_path(adapter_configuration) %></td>
-    <td><%= link_to 'Destroy', adapter_configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', adapter_configuration %>
+    <%= link_to 'Edit', edit_adapter_configuration_path(adapter_configuration) %>
+    <%= link_to 'Destroy', adapter_configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

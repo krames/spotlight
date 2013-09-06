@@ -9,6 +9,7 @@ gem 'pg'
 gem 'simple_form'
 gem 'tweetstream'
 gem 'awesome_print'
+gem 'serel'
 
 
 # Gems used only for assets and not required

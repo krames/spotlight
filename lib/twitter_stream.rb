@@ -42,10 +42,10 @@ client.on_error do |message|
 end
  
 #client.track('easter', '@rackspace fog', '@rubygems rackspace', '@rackspace ruby', 'ruby fog') do |status|
-client.track('cloud') do |status|
+client.track('rackspace') do |status|
   # The status object is a special Hash with
   # method access to its keys.
-  ap status.attrs
+  # ap status.attrs
    Rails.logger.info "#{status.user.screen_name}>> #{status.text}"
    Mention.create :blurb => status.text, 
     :username => status.user.screen_name, 

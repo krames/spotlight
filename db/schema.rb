@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130407205601) do
+ActiveRecord::Schema.define(:version => 20130906163330) do
 
   create_table "adapter_configurations", :force => true do |t|
     t.string   "adapter"
@@ -19,6 +19,16 @@ ActiveRecord::Schema.define(:version => 20130407205601) do
     t.string   "value"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "mentions", :force => true do |t|
+    t.string   "username"
+    t.integer  "adapter_configuration_id"
+    t.string   "link"
+    t.text     "blurb"
+    t.text     "content"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
   end
 
 end

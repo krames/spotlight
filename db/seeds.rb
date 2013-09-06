@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+adapter_configurations = AdapterConfiguration.create([
+    {adapter: "twitter", name: "Twitter"},
+    {adapter: "stackoverflow", name: "StackOverflow"}])

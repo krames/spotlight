@@ -1,0 +1,40 @@
+LOG:  database system was shut down at 2013-09-06 09:58:13 CDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "postgress" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  database "spotlight_development" does not exist
+ERROR:  permission denied to create database
+STATEMENT:  CREATE DATABASE "spotlight_development" ENCODING = 'unicode'
+FATAL:  database "spotlight_test" does not exist
+ERROR:  permission denied to create database
+STATEMENT:  CREATE DATABASE "spotlight_test" ENCODING = 'unicode'
+FATAL:  database "spotlight_production" does not exist
+ERROR:  permission denied to create database
+STATEMENT:  CREATE DATABASE "spotlight_production" ENCODING = 'unicode'
+FATAL:  database "spotlight_development" does not exist
+ERROR:  permission denied to create database
+STATEMENT:  CREATE DATABASE "spotlight_development" ENCODING = 'unicode'
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+ERROR:  role "kyle.rames" already exists
+STATEMENT:  CREATE ROLE "kyle.rames" NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+	
+ERROR:  role "spotlight" already exists
+STATEMENT:  CREATE ROLE spotlight NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+	
+FATAL:  database "kyle.rames" does not exist
+FATAL:  database "kyle.rames" does not exist
+FATAL:  database "spotlight_development" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  database "spotlight_test" does not exist
+FATAL:  database "spotlight_production" does not exist

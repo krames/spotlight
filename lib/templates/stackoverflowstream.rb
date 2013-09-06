@@ -1,7 +1,7 @@
 require 'serel' 
 
 
-Serel::Base.config(:stackoverflow, 's)td57wpsGmYg9MVp5apmw((') 
+Serel::Base.config(:stackoverflow, 'myapp') 
 
 puts Serel::Question.search().intitle("Rackspace").get()
 

@@ -7,6 +7,8 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 gem 'simple_form'
+gem 'tweetstream'
+gem 'awesome_print'
 
 
 # Gems used only for assets and not required

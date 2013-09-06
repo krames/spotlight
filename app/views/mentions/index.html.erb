@@ -9,7 +9,7 @@
 
 <% @mentions.each do |mention| %>
   <tr>
-    <td><%= mention.adapter_configuration.name %></td>
+    <td><%= image_tag("/images/#{mention.adapter_configuration.adapter}.jpg") %></td>
     <td><%= mention.username %></td>
     <td><%= link_to mention.blurb, mention.link %></td>
   </tr>

@@ -1,4 +1,4 @@
-class MentionController < ApplicationController
+class MentionsController < ApplicationController
   # GET /adapter_configurations
   # GET /adapter_configurations.json
   def index

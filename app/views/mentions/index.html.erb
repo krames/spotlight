@@ -1,4 +1,4 @@
-<h1>Listing mentions</h1>
+<h1>Listing Mentions</h1>
 
 <table class="table">
   <tr>
@@ -15,3 +15,16 @@
   </tr>
 <% end %>
 </table>
+
+<% content_for :page_js do %>
+<script language="Javascript">
+
+  function reload_periodically() {
+    window.location.reload();
+    setTimeout(reload_periodically, 5000);
+  }
+
+  setTimeout(reload_periodically, 5000);
+
+</script>
+<% end %>
